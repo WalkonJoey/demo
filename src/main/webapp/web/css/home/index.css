@@ -1,0 +1,4 @@
+@charset "utf-8";
+.center{ background-color:white; margin:auto;position:relative;width:960px;margin-top:300px;align:center}
+#loginForm.center{ background-color:white; margin:auto;position:relative;align:center}
+#loginTitleId{ background-color:white; margin:auto;position:relative;align:center;font-size:20px}

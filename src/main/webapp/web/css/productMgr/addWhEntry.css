@@ -1,0 +1,196 @@
+.wap {
+	
+}
+/*面包屑导航*/
+.crumbs_nav {
+	height: 30px;
+	margin: 5px;
+}
+
+.crumbs_nav span {
+	display: block;
+	line-height: 30px;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	padding-left: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*选择产品*/
+.select_product_wap {
+	margin: 5px;
+}
+/*选择按钮*/
+.select_btn_wap {
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 5px;
+}
+
+.select_btn_wap button {
+	display: inline-block;
+	height: 42px;
+	padding: 6px;
+	margin-left: 20px;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+/*显示产品区域*/
+.selected_prod {
+	margin: 5px;
+}
+
+.selected_prod_table {
+	text-align: center;
+	width: 100%;
+}
+
+.selected_prod_table tr {
+	text-align: center;
+}
+
+.selected_prod_table tr th {
+	font-size: 14px;
+	font-weight: bold;
+	text-align:center;
+}
+.selected_prod_table tr td{
+	text-align:left;
+}
+.selected_prod_table tr td,.selected_prod_table tr th {
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+}
+
+.selected_prod_table tr td input {
+	height: 18px;
+	line-height: 18px;
+	margin:0 5px;
+}
+.selected_prod_table tr .td_skuNo,.selected_prod_table tr .td_opt{
+	text-align:center;
+}
+.td_skuNo input{
+	width: 100px;
+	border: none;
+}
+
+.td_receivedQty input{
+	width: 60px;
+}
+.td_onShelfQty input{
+	width: 60px;
+}
+.td_packgeType input{
+	width: 80px;
+}
+.td_packgeWeight input{
+	width: 60px;
+}
+.td_deliverChn input{
+	width: 80px;
+}
+.td_isQC input{
+	width: 25px;
+	vertical-align: middle;
+}
+
+.td_reason input{
+	width: 220px;
+}
+.selected_prod_table strong{
+	color:red;
+}
+
+/*基本信息*/
+.common_info {
+	margin: 5px;
+}
+
+.common_info_table {
+	width: 500px;
+}
+
+.common_info_table th {
+	text-align: right;
+	height: 32px;
+	width: 140px;
+	line-height: 32px;
+	padding: 4px 10px;
+	color: #333;
+	font-size: 14px;
+}
+
+.common_info_table td {
+	text-align: left;
+	padding: 0px;
+	height: 40px;
+	width: 250px;
+	line-height: 40px;
+}
+
+.common_info_table td input {
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	width: 250px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.common_info_table td textarea {
+	height: 48px;
+	font-size: 14px;
+	padding: 3px 5px;
+	width: 350px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+/*最后确认按钮区域*/
+.bottom_btn_wap {
+	height: 32px;
+	line-height: 32px;
+	width: 400px;
+	float: right;
+}
+
+.btn {
+	padding: 4px 10px;
+	line-height: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 4px;
+	margin-left: 20px;
+}
+
+.cancel_btn {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+}
+
+.submit_btn {
+	background-color: #489cd4;
+	border: 1px solid #5ba9de;
+}
+
+/*选择产品dialog*/
+.prod_select_dialog {
+	margin: 5px;
+	paddigng: 5px;
+	height: 540px;
+	width: 1000px;
+}
+
+.prod_search_wap {
+	height: 60px;
+	background-color: #5ba9de;
+}
+
+.datagrid_wap {
+	height: 440px;
+	width: 100%;
+}

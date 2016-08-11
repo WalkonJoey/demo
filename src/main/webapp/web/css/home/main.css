@@ -1,0 +1,363 @@
+body {
+	overflow:auto;
+}
+
+#layout{
+	/* 这里如果不设置高度可宽度layout就不能实现 */
+	width:100%;
+	height:100%;
+}
+.south_area{
+	height:50px;
+	margin-top:10px;
+	padding-top:10px;
+	
+}
+.west_area{
+	width:216px;
+	overflow:hidden;
+}
+.west_area,.center_area,.south_area,.north_area{
+	
+}
+.center_area,.west_area{
+	margin-top:10px;
+}
+.north_ad{
+	height:60px;
+	width:100%;
+	overflow:hidden;
+}
+.ad_left,.ad_right{
+	height:50px;
+	margin-top:5px;
+}
+.ad_left{
+	width:300px;
+	float:left;
+}
+.ad_right{
+	width:300px;
+	float:right;
+}
+.soft_message,.ad_message{
+	line-height:50px;
+	vertical-align:middle;
+	padding-left:50px;
+	color:red;
+}
+
+
+#logo {
+	float: left;
+	width: 216px;
+	height: 31px;
+	border: none;
+	background: url('web/images/main/logo.png');
+}
+
+
+
+#header-right span {
+	width: 80px;
+	height: 31px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	line-height: 31px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+#header-right span:hover {
+	background: #7cbe81;
+}
+
+#header-right span img {
+	left: -2px;
+	position: relative;
+	top: 3px;
+}
+
+.logout {
+	width: 80px;
+	top: 0px;
+	right: 30px;
+}
+.controlPanel {
+	top: 0px;
+	width: 100px;
+	text-align: left;
+	right: 110px;
+}
+#header-right span.currentUser{
+	top: 0px;
+	width: 200px;
+	text-align: left;
+	right: 210px;
+}
+
+#west-nav div span {
+	height: 31px;
+	background: #fff;
+	line-height: 31px;
+	text-align: left;
+	display: block;
+	text-indent: 40px;
+	margin: none;
+	cursor: pointer;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+#west-nav div span img {
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#west-nav div span:hover {
+	background: #f2f2f2;
+	color: #333333;
+}
+
+address {
+	clear: both;
+	margin: 0px 0px 20px;
+	color: #666;
+	font-style: normal;
+	line-height: 1.35;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}
+
+.panel-header {
+	text-indent: 20px;
+}
+.top-bg{
+	width:100%; 
+	height: 40px;
+ 	background-image: -moz-linear-gradient(top, #2296e4, #0f508d); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2296e4), color-stop(1, #0f508d)); /* Saf4+, Chrome */
+	
+}
+.top-bg .logo{
+	height:40px;line-height:40px;padding-left:20px; font-size:20px;color:#fff; display:inline-block;
+	
+}
+.rightinfo{
+	float:right;margin-top:6px;	font-size:16px;color:#fff; 
+}
+.rightinfo span{ 
+	display: block;
+    float: left;
+    line-height: 30px;
+    margin-right: 30px;
+}
+.logout_img{
+	height:32px;
+	width:32px;
+	cursor:pointer;
+}
+.logout_img:hover{
+	opacity:0.7;
+}
+/*.rightinfo i{font-size:20px;}*/
+.div_box{margin:10px;}
+.div_box h3{ 
+	font-size:14px;line-height:35px;padding-left:15px;margin:0;
+	color:#fff;
+	height:35px;	
+	background-image: -moz-linear-gradient(top, #767676, #404040); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #767676), color-stop(1, #404040)); /* Saf4+, Chrome */
+}
+.div_box h3 a:link{
+	display:inline-block;
+	float:right;
+	padding-right:30px;
+	text-decoration: none;
+}
+/*中心  首页的通知部分*/
+.sys_notice{ 
+	border:1px solid #999;
+	padding:10px;
+	color:#333;
+	/* overflow-y:auto; */
+	min-height:100px;
+}
+time {
+    color: #303030;
+    display: inline-block;
+    -webkit-text-size-adjust:none;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    padding-left: 15px;
+    vertical-align: middle;
+    width: 76px;
+}
+.pb_notice_ol {
+	list-style:none;/* 在这里加上需要的原因未chrome里面有给li增加float属性之后，就不能显示ol的序号的bug */
+}
+.pb_notice_title {
+    height: 28px;
+    line-height: 28px;
+    padding:0px 20px;
+  	width:45%;
+  	float:left;
+}
+.pb_notice_title b {
+    color: red;
+}
+/* .pb_notice_ol li:nth-child(odd){
+    border-right:1px dashed #ccc;
+} */
+.pb_notice_btn {
+    padding-left: 20px;
+}
+
+.private_notice_wap{
+    margin-top: 20px;
+    border: 1px solid #999;
+}
+.p_notice_item_wap{
+	overflow: hidden;
+    width: 100%;
+}
+.p_notice_classify{
+	float: left;
+    height: 237px;
+    margin: 12px 6px;
+    width: 32%;
+}
+.p_notice_classify ol li span,.pb_notice_title span{/* 即使文字溢出，会自动添加省略号 */
+    display: inline-block;
+    height: 28px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.p_notice_classify ol li span{
+max-width: 130px;
+}
+.pb_notice_title span{
+	max-width: 300px;
+}
+.p_notice_classify h4{
+	height:30px;
+	padding-left:10px;
+	line-height:30px;
+	background-color:#e8e8e8;
+	font-weight: 600;
+}
+.p_notice_classify h4 a{
+	color: #666;
+    float: right;
+    font-weight: normal;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.p_notice_item_wap ol{
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+.p_notice_item_wap li {
+    height: 28px;
+    line-height: 28px;
+    vertical-align:middle;
+}
+.p_notice_item_wap h4{
+	background: none repeat scroll 0 0 #ddd;
+    font-weight: 600;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    margin-top:10px;
+}
+.p_notice_item_wap a {
+    padding-left: 20px;
+}
+/*pub-notice-dialog  公告对话框*/
+.pub_notice_title{
+	font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.pub_notice_content{
+	overflow: hidden;
+    padding: 0 10px;
+}
+.pub_notice_content > div{
+	text-indent: 1em;
+	text-overflow: ellipsis;
+}
+.pub_notice_foot{
+	height:30px;
+	width:100%;
+	overflow:hidden;
+}
+.pub_notice_foot time{
+	display:block;
+	float:right;
+	margin-right:30px;
+}
+/*发布公告*/
+.announce_form{
+	width:400px;
+	height:280px;
+}
+.announce_form tr{
+	height:32px;
+	line-height:32px;
+	padding:10px 0px;
+}
+.announce_form th{
+	padding: 8px 6px;
+    vertical-align: top;
+	
+}
+.announce_form td{
+	padding:10px;
+	
+}
+.announce_form td input{
+	padding:6px;
+	width:280px;
+	border-radius:3px;
+}
+.announce_form textarea{
+	border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 120px;
+    padding: 10px;
+    resize: none;
+    width: 280px;
+    
+}
+/*选项卡标题的显示样式*/
+.tabs-inner{
+	padding-right: 15px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*侧边栏设置最小高度*/
+.accordion .accordion-header {
+    padding: 7px 1px;
+}
+.easyui-accordion.accordion {
+    height: 100%;
+}
+.panel-body.accordion-body > div {
+    min-height: 240px;
+}

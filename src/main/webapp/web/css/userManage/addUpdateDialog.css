@@ -1,0 +1,37 @@
+#easyuiDialog{
+	width:350px;
+	height:240px;
+	overflow: hidden;
+}
+#easyuiForm .tableForm{
+	display:block;
+	width:350px;
+	height:auto;
+	margin:20px auto;
+}
+#easyuiForm .tableForm tr{
+	width:300px;
+	height:40px;
+	padding:10px;
+	
+}
+#easyuiForm .tableForm tr th{
+	width:80px;
+	text-align:right;
+	font-size:14px;
+}
+#easyuiForm .tableForm tr td{
+	width:200px;
+}
+#easyuiForm .tableForm tr td input{
+	width:180px;
+	height:22px;
+}
+#easyuiForm .tableForm tr td input[type="radio"]{
+	width:30px;
+	height:14px;
+}
+
+#toolbar table tr th{
+	text-align:right;
+}

@@ -1,0 +1,46 @@
+#easyuiDialog{
+	width:660px;
+	height:350px;
+	overflow: hidden;
+}
+#easyuiForm .tableForm{
+	display:block;
+	width:600px;
+	height:auto;
+	margin:auto;
+}
+#easyuiForm .tableForm tr{
+	width:300px;
+	height:30px;
+	padding:2px;
+	
+}
+#easyuiForm .tableForm tr th{
+	width:80px;
+	text-align:right;
+	font-size:14px;
+}
+#easyuiForm .tableForm tr td{
+	width:200px;
+}
+#easyuiForm .tableForm tr td input{
+	width:180px;
+	height:22px;
+}
+#easyuiForm .tableForm tr td input[type="radio"]{
+	width:30px;
+	height:14px;
+}
+
+#toolbar table tr th{
+	text-align:right;
+}
+
+
+#roleTree{
+	 height:300px;width:350px;overflow: auto; background:#98d39d;text-indent:30px;
+}
+#roleTree .tree-title{
+	font-size:14px;
+	text-indent:10px;
+}
